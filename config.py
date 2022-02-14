@@ -6,33 +6,34 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5114784138:AAGtG_4FZDOwQpC9UJ32JbR0K8er5I0kMLs")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "19101858"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "7ba2b10bf65bf2059ce81d1d9a493823")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-100"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5020744575"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "ReszXD")
+OWNER = os.environ.get("OWNER", "Zyy")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Radit:aditya2007!@cluster0.ajeqx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "")
-GROUP = os.environ.get("GROUP", "InfoBotShr")
+CHANNEL = os.environ.get("CHANNEL", "Test Adit by Melly bot")
+GROUP = os.environ.get("GROUP", "Botyam1")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-640827405"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-725865906"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
